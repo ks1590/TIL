@@ -1,0 +1,9 @@
+2020-12-06 19:22:34[WARN] user: kensuke
+GET /posts
+USE eager loading detected
+  Post => [:user]
+  Add to your query: .includes([:user])
+Call stack
+  /Users/kensuke/workspace/00_mywork/TIL/includes_app/app/views/posts/index.html.erb:8:in `block in _app_views_posts_index_html_erb___2292613565904805982_70279397500600'
+  /Users/kensuke/workspace/00_mywork/TIL/includes_app/app/views/posts/index.html.erb:5:in `_app_views_posts_index_html_erb___2292613565904805982_70279397500600'
+
